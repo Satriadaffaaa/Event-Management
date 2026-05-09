@@ -5,7 +5,7 @@ import { Toaster } from './components/ui/sonner';
 import LandingPage from './pages/public/LandingPage';
 import EventDetail from './pages/public/EventDetail';
 import EventRegistration from './pages/public/EventRegistration';
-import ProjectDeclaration from './pages/public/ProjectDeclaration';
+
 
 // Admin Pages
 import AdminLogin from './pages/admin/AdminLogin';
@@ -38,7 +38,7 @@ export default function App() {
         <Route path="/" element={<LandingPage />} />
         <Route path="/events/:id" element={<EventDetail />} />
         <Route path="/events/:id/register" element={<EventRegistration />} />
-        <Route path="/project-declaration" element={<ProjectDeclaration />} />
+
 
         {/* Admin Routes */}
         <Route path="/admin/login" element={<AdminLogin />} />

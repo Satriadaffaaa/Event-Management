@@ -23,9 +23,7 @@ export default function PublicLayout({ children }: PublicLayoutProps) {
               <Link to="/#events" className="hover:text-blue-600 transition-colors">
                 Events
               </Link>
-              <Link to="/project-declaration" className="hover:text-blue-600 transition-colors">
-                Project
-              </Link>
+
               <Link to="/admin/login" className="hover:text-blue-600 transition-colors">
                 Admin
               </Link>
@@ -68,11 +66,7 @@ export default function PublicLayout({ children }: PublicLayoutProps) {
                     Events
                   </Link>
                 </li>
-                <li>
-                  <Link to="/project-declaration" className="text-gray-400 hover:text-white transition-colors text-sm">
-                    Project Declaration
-                  </Link>
-                </li>
+
                 <li>
                   <Link to="/admin/login" className="text-gray-400 hover:text-white transition-colors text-sm">
                     Admin Login
